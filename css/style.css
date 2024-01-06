@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.continer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.continer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* header */
+.header {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/image/transit.jpg)no-repeat center;
+    background-size: cover;
+
+}
+
+.header-logo {
+    padding: 10px 0;
+    float: left;
+}
+
+.header-logo a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* menu */
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    display: block;
+}
+
+.menu li .Sign {
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.difination {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 150px;
+}
+
+.difination p {
+    color: white;
+    margin: 15px 0;
+}
+
+.difination h1 {
+    font-size: 30px;
+    color: white;
+
+}
+
+.difination a {
+    margin-top: 30px;
+    padding: 10px 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 18%;
+    display: inline-block;
+}
+
+/* main */
+.main {
+
+    width: 100%;
+    text-align: center;
+}
+
+/* platforms */
+.platforms {
+    /* line-height: 30px; */
+    text-align: center;
+    background-color: #7b767658;
+    float: left;
+}
+
+.platform-title {
+    line-height: 30px;
+    padding-top: 80px;
+}
+
+.platform-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+
+
+}
+
+.platform-box {
+    background-color: #fff;
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+    border: 1px solid #333;
+}
+
+.platform-box i {
+    margin: 10px 0;
+    /* background-color: dodgerblue; */
+    padding: 10px 10px;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+.fa-rocket {
+    background-color: brown;
+}
+
+.fa-cloud {
+    background-color: dodgerblue;
+}
+
+.fa-desktop {
+    background-color: olivedrab;
+}
+
+.platform-box h3 {
+    margin-bottom: 10px;
+}
+
+.platform-box p {
+    text-align: center;
+    line-height: 20px;
+}
+
+/* comment */
+.comment {
+    clear: both;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    padding: 20px 20px;
+    line-height: 50px;
+}
+
+.comment h4 {
+    font-size: 24px;
+}
+
+.comment-title {
+    font-style: 24px;
+    font-weight: bold;
+}
+
+
+.comment-box {
+    width: 20%;
+    background-color: #fff;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+.comment-box i {
+    float: left;
+    color: #333;
+    : #e1d9d9;
+    font-size: 80px;
+}
+
+.comment-add {
+    padding: 20px 0;
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #333;
+    line-height: 30px;
+}
+
+.comment-add p {
+    padding-bottom: 20px;
+}
+
+.comment-new {
+    color: white;
+    padding: 2px 10px;
+    background-color: dodgerblue;
+    border-radius: 30%;
+}
+
+/* connect-us */
+.connect-us {
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+
+
+.form-group input {
+    width: 49%;
+    display: inline;
+    float: left;
+    margin: 5px 5px;
+}
+
+.submit-input {
+    margin: 20px 0;
+    clear: both;
+    text-align: center;
+    background-color: #333;
+}
+
+.form-group textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #333;
+}
+
+.footer p {
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
